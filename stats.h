@@ -9,31 +9,117 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
+ * @file stats.h
  * @brief <Add Brief Description Here >
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Nishuthan
+ * @date   20 Nov 2021
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
+void print_statistics(unsigned char *array,int size);
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief This function prints the statistics information
  *
- * <Add Extended Description Here>
+ *   This functio call other functions such as  find_median() to find the median
+ *   find_mean() to find the mean find_minimum() to find the minimum find_maximum() to find 
+ *   the maximum
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
  *
- * @return <Add Return Informaiton here>
+ * @return void
+ */
+
+void print_array(unsigned char *array,int size);
+/**
+ * @brief Prints the given array.
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function prints the array to the screen.
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return void
+ */
+
+
+int find_mean(unsigned char *array,int size);
+/**
+ * @brief Find the mean of a dataset
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function finds the mean from the charecter array and returns the integer. 
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return int
+ */
+
+int find_median(unsigned char *array,int size);
+/**
+ * @brief Find the median of a dataset.
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function finds the median from the charecter array and returns the integer. 
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return int
+ */
+
+int find_minimum(unsigned char *array,int size);
+/**
+ * @brief Find the minimum of a dataset
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function finds the minimum from the charecter array and returns the integer. 
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return int
+ */
+
+int find_maximum(unsigned char *array,int size);
+/**
+ * @brief Find the maximum of a dataset
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function finds the maximum from the charecter array and returns the integer. 
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return int
+ */
+
+void sort_array(unsigned char *array,int size);
+/**
+ * @brief Sorts the given array.
+ *
+ *   This functio takes an unsigned charecter pointer and an integer.
+ *   This function finds the minimum from the charecter array and sorts the array and prints it  
+ *   to the screen.
+ *
+ * @param array unsigned charecter pointer of the array
+ * @param size  integer value denoting the size of the array
+
+ *
+ * @return void
  */
 
 
