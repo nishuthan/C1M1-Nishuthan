@@ -146,7 +146,7 @@ void sort_array(unsigned char *array,int size){
 unsigned char temp;
 	for(int i = 0; i < size; i++){
 		for(int j = i+1; j < size; j++){
-			if( array[i] > array[j] ){
+			if( array[i] < array[j] ){
 				temp = array[i];
 				array[i] = array[j];
 				array[j] = temp;
