@@ -9,13 +9,17 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief simple application that performs statistical analytics on a dataset
  *
- * <Add Extended Description Here>
+ * This Application performs
+ *	-Prints statistics of an array (minimum, maximum, mean, median)
+ *	-prints the array
+ *	-sort the array
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ *
+ * @author Nishuthan S
+ * @date   20 Nov 2021
  *
  */
 
@@ -40,4 +44,23 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(){}
+
+void print_array(){}
+
+int find_median(){}
+
+int find_mean(){}
+
+int find_maximum(){}
+
+int find_minimum(){}
+
+void sort array(){}
+
+
+
+
+
+
+
